@@ -1,10 +1,17 @@
+import { Route, Switch } from "react-router-dom";
+import Home from "./pages/Home";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Start of development</h1>
-    </div>
+    <Switch>
+      <Route path="/" exact={true}>
+        <Home />
+      </Route>
+      <Route path="/home">
+        <Home />
+      </Route>
+    </Switch>
   );
 }
 
