@@ -1,6 +1,8 @@
+import classes from "./Home.module.css";
+
 function Home() {
-    return <div>
-        <h1>Home</h1>
+    return <div className={classes.test}>
+        <h1>Home/About</h1>
     </div>
 }
 
