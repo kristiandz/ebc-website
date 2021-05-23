@@ -1,3 +1,25 @@
-.test {
-  background-color: rgb(179, 179, 179);
+.home {
+  width: auto;
+}
+
+.home h2 {
+  color: white;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.home hr {
+}
+
+.flex {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.flex div {
+  display: block;
+  padding: 10px;
+  flex-direction: column;
 }
