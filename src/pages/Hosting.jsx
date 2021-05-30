@@ -15,7 +15,7 @@ function Hosting() {
         const enteredAddress = addressInputRef.current.value;
         const enteredDescription = descriptionInputRef.current.value;
 
-        const url = "https://discordapp.com/api/webhooks/603595949117276170/4nl5dZWz3kuojYir0d7r823y0ih931CL5_1aasiBze7kTIsi_ThcJqHwS1GAqoPNhDZl";
+        const url = "enter-url-here";
         fetch(url,
             {
                 method: "POST",
