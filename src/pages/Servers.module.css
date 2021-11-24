@@ -1,3 +1,11 @@
 .servers {
-  color: red;
+  color: rgb(20, 8, 8);
 }
+
+.itemContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  margin: 0px;
+}
+

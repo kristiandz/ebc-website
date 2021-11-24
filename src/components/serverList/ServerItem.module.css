@@ -1,3 +1,19 @@
-.serveritem {
-  color: aqua;
+.serverItem {
+  color: rgb(1, 31, 31);
+  background-color: whitesmoke;
+  transition-duration: 0.5s;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  padding: 10px;
+  width: 500px;
+  margin: 4px;
+  border: 1px solid rgb(155, 154, 154);
+  border-radius: 10px;
+}
+
+.serverItem:hover {
+ transform: translateY(-5px);
+ background-color: rgb(179, 177, 177);
+ transition-duration: 0.5s;
 }
