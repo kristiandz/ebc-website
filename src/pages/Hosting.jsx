@@ -1,9 +1,9 @@
 import { useRef } from "react";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import classes from "./Hosting.module.css";
 
 function Hosting() {
-    const history = useHistory();
+    const history = useNavigate();
 
     const tagInputRef = useRef();
     const addressInputRef = useRef();
@@ -24,7 +24,7 @@ function Hosting() {
                     {
                         content: "<@&419902212030988288> \n**Discord:** " + enteredDiscordTag + "\n**E-Mail:** " + enteredAddress + "\n**Description:** " + enteredDescription
                     })
-            }).then(() => { alert("Your request has been submitted"); history.replace("/") })
+            }).then(() => { alert("Your request has been submitted"); history("/") })
     }
 
     return (
