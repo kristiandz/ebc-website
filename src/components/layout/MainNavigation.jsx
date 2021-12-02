@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import classes from "./MainNavigation.module.css";
+import logo from "../../assets/logo-white.png"
 
 function MainNavigation() {
 
     return (
         <header className={classes.header}>
-            <div className={classes.logo}><Link to="/">Explicit Bouncers</Link></div>
+            <div className={classes.logo}><Link to="/"><img src={logo} alt="Logo" width = "80" height="70" /></Link></div>
             <nav>
                 <ul>
                     <li>

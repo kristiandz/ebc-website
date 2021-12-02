@@ -39,8 +39,13 @@
   margin-left: 0.5rem;
 }
 
+.logo {
+  padding-top: 20px;
+}
+
 .logo a {
   font-size: 1.8rem;
   color: rgb(255, 255, 255);
   font-weight: bold;
+  white-space: nowrap;
 }
