@@ -7,10 +7,6 @@ function CommunityApply() {
             <h3>Please fill in this form if you wish to apply for our community, please take your time to write this, a more detailed application is more likely to be accepted</h3>
             <form className={classes.form} onSubmit="">
                 <div className={classes.control}>
-                    <label htmlFor="tag">Discord tag</label>
-                    <input type="text" required id="tag" placeholder="Example: John#1221" />
-                </div>
-                <div className={classes.control}>
                     <label htmlFor="name">Real name</label>
                     <input type="text" required id="name" placeholder="Example: John Ford" />
                 </div>
