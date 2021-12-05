@@ -24,7 +24,7 @@ function CommunityApply() {
                 </div>
                 <div className={classes.control}>
                     <label htmlFor="about">Please tell us about yourself</label>
-                    <textarea id="description" required rows="5" placeholder="Provide some details about yourself, what are you hobbies, interests, education, life goals etc."></textarea>
+                    <textarea id="description" required rows="5" placeholder="Provide some details about yourself, what are your hobbies, interests, education, life goals etc."></textarea>
                 </div>
                 <div className={classes.control}>
                     <label htmlFor="reason">Why do you want to join our community ?</label>
