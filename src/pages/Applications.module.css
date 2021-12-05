@@ -13,3 +13,13 @@ a{
     color: black;
     text-decoration: none;
 }
+
+.navbar{
+    background-color: #361010;
+}
+
+.navbar a{
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+}

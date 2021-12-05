@@ -5,7 +5,7 @@ function Applications() {
 
     return (
         <div className = {classes.appContainer}>
-            <nav>
+            <nav className = {classes.navbar}>
                 <Link to="community_applications">Community applications</Link>
                 <Link to="community_apply">Join the community</Link>
                 <Link to="ban_appeals">Ban appeals</Link>
