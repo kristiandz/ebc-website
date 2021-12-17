@@ -3,6 +3,8 @@ import Layout from "./components/layout/Layout";
 import Home from "./pages/Home";
 import Servers from "./pages/Servers";
 import Hosting from "./pages/Hosting";
+import League from "./pages/League";
+import Stats from "./pages/Stats";
 import Applications from "./pages/Applications";
 import CommunityApplications from "./components/applicationPages/CommunityApplications";
 import CommunityApply from "./components/applicationPages/CommunityApply";
@@ -17,6 +19,8 @@ function App() {
         <Route path="/about" element = {<Home />} />
         <Route path="/servers" element = {<Servers />} />
         <Route path="/hosting" element = {<Hosting/>} />
+        <Route path="/league" element = {<League/>} />
+        <Route path="/stats" element={<Stats/>} />
         <Route path="/applications" element = {<Applications/>}>
           <Route path = "community_applications" element = {<CommunityApplications/>} />
           <Route path = "community_apply" element = {<CommunityApply/>} />

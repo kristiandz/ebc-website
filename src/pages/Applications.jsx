@@ -8,8 +8,8 @@ function Applications() {
             <nav className = {classes.navbar}>
                 <Link to="community_applications">Community applications</Link>
                 <Link to="community_apply">Join the community</Link>
-                <Link to="ban_appeals">Ban appeals</Link>
                 <Link to="ban_appeal">Appeal a ban</Link>
+                <Link to="ban_appeals">Ban appeals</Link>
             </nav>
             <Outlet/>
         </div>
