@@ -1,0 +1,114 @@
+.commentSectionContainer{
+    margin-top: 30px;
+}
+
+.card{
+    color: rgb(1, 31, 31);
+    background-color: rgb(202, 202, 202);
+    transition-duration: 0.5s;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 20px;
+    width: auto;
+    margin: 4px;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 10px;
+} /* Look of the card */
+
+.cardSpecial{
+    font-size: 17px;
+    padding-bottom: 5px;
+    display: flex;
+    background-color: #e7e7e7;
+    justify-content: space-between;
+}
+
+.votesAndExpand div{
+    padding-left: 40px;
+}
+
+.votes{
+    font-weight: bolder;
+    display: inline-flex
+}
+
+.votes span{
+    padding-left: 10px;
+}
+
+.cardRow{
+    padding-top: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+} /* Flex for each line of the app */
+
+.cardForm{
+    font-style:oblique;
+    font-weight: bold;
+} /* Form name: */
+
+.cardData{
+    font: normal;
+    padding-left: 8px;
+} /* Form info: */
+
+.cardExpand{
+    justify-self: flex-end;
+    font-weight: bold;
+    font-size: 18px;
+} /* Icon style */
+
+.card:hover{
+    transform:scale(+100.4%);
+    background-color: rgb(179, 177, 177);
+    transition-duration: 0.5s;
+} /* On hover over card */
+
+.form {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .control {
+    font-weight: bold;
+  }
+
+  .control input,
+  .control textarea {
+    font: inherit;
+    font-size: 14px;
+    font-weight: lighter;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 0.2rem;
+    width: 100%;
+    resize: none;
+  }
+
+  .actions{
+      padding-top: 3px;
+  }
+
+  .actions button {
+    font: inherit;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #690101;
+    color: white;
+    margin-right: 5px;
+    padding: 0.3rem 1.2rem;
+    border: 1px solid #77002e;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: 0.4s;
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    transition: 0.4s;
+    background-color: #9e0000;
+    border-color: #a50e48;
+  }
