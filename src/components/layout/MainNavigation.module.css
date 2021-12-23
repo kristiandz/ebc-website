@@ -1,5 +1,5 @@
 .header {
-  height: 4rem;
+  height: 8vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -33,21 +33,6 @@
   color: rgb(182, 182, 182);
 }
 
-.badge {
-  background-color: #b32336;
-  color: white;
-  border-radius: 12px;
-  padding: 0 1rem;
-  margin-left: 0.5rem;
-}
-
 .logo {
-  padding-top: 20px;
-}
-
-.logo a {
-  font-size: 1.8rem;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  white-space: nowrap;
+  padding-top: 15px;
 }
