@@ -96,11 +96,11 @@
     font: inherit;
     font-size: 15px;
     cursor: pointer;
-    background-color: #690101;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
     color: white;
     margin-right: 5px;
     padding: 0.3rem 1.2rem;
-    border: 1px solid #77002e;
+    border: 0px solid #77002e;
     border-radius: 4px;
     font-weight: bold;
     transition: 0.4s;
@@ -109,6 +109,6 @@
   .actions button:hover,
   .actions button:active {
     transition: 0.4s;
-    background-color: #9e0000;
-    border-color: #a50e48;
+    background: linear-gradient(90deg, #2e54ac 0%, #0b1730 100%);
+    border-color: #000000;
   }
