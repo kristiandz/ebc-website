@@ -1,35 +1,4 @@
 .appContainer{
     background-color: whitesmoke;
-}
-
-nav{
-    display: flex;
-    text-decoration: none;
-    font-size: 25px;
-    justify-content: space-around;
-}
-
-.content{
-    padding: 0 1vw;
-}
-
-a{
-    color: black;
-    text-decoration: none;
-}
-
-.navbar{
-    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
-}
-
-.navbar a{
-    color: white;
-    font-size: 22px;
-    padding: 10px;
-}
-
-.navbar a:hover,
-.navbar a:active,
-.navbar a.active {
-  color: rgb(182, 182, 182);
+    padding: 0 0;
 }

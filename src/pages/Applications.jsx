@@ -1,19 +1,13 @@
 import classes from "./Applications.module.css";
-import {Outlet, Link} from "react-router-dom";
+import { Outlet, Link, useLocation } from "react-router-dom";
 
 function Applications() {
-
+    const location = useLocation();
     return (
-        <div className = {classes.appContainer}>
-            <nav className = {classes.navbar}>
-                <Link to="community_applications">Community applications</Link>
-                <Link to="community_apply">Join the community</Link>
-                <Link to="ban_appeal">Appeal a ban</Link>
-                <Link to="ban_appeals">Ban appeals</Link>
-            </nav>
-            <Outlet/>
+        <div className={classes.appContainer}>
+            <Outlet />
         </div>
-     );
-}   
+    );
+}
 
 export default Applications;
