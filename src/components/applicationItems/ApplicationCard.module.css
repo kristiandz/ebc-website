@@ -2,26 +2,39 @@
     margin-top: 30px;
 }
 
-.card{
-    color: rgb(1, 31, 31);
+.cardContainer{
+    display: flex;
     background-color: rgb(202, 202, 202);
+    border-top: 1px solid rgb(167, 167, 167);
+    border-bottom: 1px solid rgb(167, 167, 167);
+    border-right: 1px solid rgb(167, 167, 167);
+    border-radius: 10px;
+    margin-bottom: 1vh;
+}
+
+.card{
     transition-duration: 0.5s;
     display: flex;
     justify-content: left;
     flex-direction: column;
     padding: 20px;
-    width: auto;
-    margin: 4px;
-    border: 1px solid rgb(167, 167, 167);
-    border-radius: 10px;
-} /* Look of the card */
+    width: 100%;
+} 
 
 .cardSpecial{
     font-size: 17px;
     padding-bottom: 5px;
     display: flex;
-    background-color: #e7e7e7;
+    background-color: #cccccc;
     justify-content: space-between;
+    cursor: pointer;
+}
+
+.status{
+    width: 0.5vw;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .votesAndExpand div{
@@ -61,7 +74,7 @@
 } /* Icon style */
 
 .card:hover{
-    transform:scale(+100.4%);
+    /* transform:scale(+100.4%); */
     background-color: rgb(179, 177, 177);
     transition-duration: 0.5s;
 } /* On hover over card */
