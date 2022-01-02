@@ -25,9 +25,13 @@ function BanAppeals() {
     return (
         <div className={classes.container}>
             <h3>Active appeals</h3>
-            {reversedAppeals.map((element) => { return (<AppealCard value={element} key={element.id} />) })}
+            <div className={classes.cardContainer}>
+                {reversedAppeals.map((element) => { return (<AppealCard value={element} key={element.id} />) })}
+            </div>
             <h3>Archive</h3>
-            {reversedAppeals.map((element) => { return (<AppealCard value={element} key={element.id} />) })}
+            <div className={classes.cardContainer}>
+                {reversedAppeals.map((element) => { return (<AppealCard value={element} key={element.id} />) })}
+            </div>
         </div>
     );
 }
