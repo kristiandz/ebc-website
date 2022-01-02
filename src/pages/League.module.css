@@ -1,3 +1,6 @@
 .league{
     font: inherit;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3vh;
 }
