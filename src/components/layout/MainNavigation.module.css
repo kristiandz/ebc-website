@@ -6,8 +6,8 @@
   width: 100%;
   align-items: center;
   justify-content: space-around;
-  /* background: linear-gradient(337deg, rgba(255,119,0,1) 0%, rgba(0,87,255,1) 100%); */
-  background: linear-gradient(30deg, rgba(52,52,52,1) 0%, rgba(168,168,168,1) 100%);}
+  background: linear-gradient(30deg, rgb(65, 65, 65) 0%, rgb(119, 119, 119) 100%);
+}
 
 .header ul {
   list-style: none;
@@ -43,7 +43,7 @@
   display: none;
   position: absolute;
   padding-top: 0vh;
-  background: #D57129;
+  background: #8F8F8F;
   min-width: 160px;
   z-index: 1;
 }

@@ -1,6 +1,6 @@
 .serverItem {
   color: rgb(1, 31, 31);
-  background-color: whitesmoke;
+  background-color: white;
   transition-duration: 0.5s;
   display: flex;
   justify-content: left;
@@ -14,6 +14,6 @@
 
 .serverItem:hover {
  transform: translateY(-5px);
- background-color: rgb(179, 177, 177);
+ background-color:rgb(179, 177, 177);
  transition-duration: 0.5s;
 }
