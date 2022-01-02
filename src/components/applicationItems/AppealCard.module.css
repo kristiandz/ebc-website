@@ -109,7 +109,7 @@
     font: inherit;
     font-size: 15px;
     cursor: pointer;
-    background: linear-gradient(90deg, #4863a0 0%, #324b86 100%);
+    background: linear-gradient(30deg, rgb(95, 95, 95) 0%, rgb(128, 128, 128)100%);
     color: white;
     margin-right: 5px;
     padding: 0.3rem 1.2rem;
@@ -122,6 +122,6 @@
   .actions button:hover,
   .actions button:active {
     transition: 0.4s;
-    background: linear-gradient(90deg, #2e54ac 0%, #0b1730 100%);
+    background: linear-gradient(30deg, rgb(80, 80, 80) 0%, rgb(139, 139, 139) 100%);
     border-color: #000000;
   }
