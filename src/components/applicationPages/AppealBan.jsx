@@ -69,7 +69,7 @@ function AppealBan() {
                 <textarea id="additional" required rows="3" placeholder="You can add your thoughts or additional proof against your ban etc." ref={additionalInputRef}></textarea>
             </div>
             <div className={classes.actions}>
-                <button>Request information</button>
+                <button>Submit appeal</button>
             </div>
         </form>
     </div>

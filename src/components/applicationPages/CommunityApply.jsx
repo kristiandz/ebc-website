@@ -68,7 +68,7 @@ function CommunityApply() {
                     <textarea id="description" required rows="5" placeholder="How are you relations with other members, what are we doing good, and what could we imrpove in our community, please share your thoughts" ref={reputationInputRef}></textarea>
                 </div>
                 <div className={classes.actions}>
-                    <button>Request information</button>
+                    <button>Submit application</button>
                 </div>
             </form>
         </div>
