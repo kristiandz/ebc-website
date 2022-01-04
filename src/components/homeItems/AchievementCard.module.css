@@ -1,0 +1,22 @@
+.achievementCard{
+    display: flex;
+    background: rgb(185, 185, 185);
+    box-shadow: 1px 5px 10px 1px rgb(100, 100, 100); 
+    border-radius: 8px;
+    padding: 2vh;
+    width: 20vw;
+    justify-content: space-between;
+    transition: 0.3s;
+}
+
+.achievementCard:hover{
+    transition: 0.3s;
+    display: flex;
+    background: rgb(196, 196, 196);
+    box-shadow: 1px 5px 10px 1px rgb(148, 148, 148); 
+  }
+  
+  .boxText {
+    display: flex;
+    flex-direction: column;
+  }
