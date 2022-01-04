@@ -39,8 +39,15 @@ function Home() {
                 </div>
             </div>
             <footer>
-                <img src={logo} alt="Logo" width="40" height="30" />
-                <span>Explicit Bouncers Copyright © 2010-2022</span>
+                <div className={classes.leftSection}>
+                    <img src={logo} alt="Logo" width="40" height="30" />
+                    <span>Explicit Bouncers Copyright © 2010-2022</span>
+                </div>
+                <div className={classes.rightSection}>
+                    <span>Made with</span>
+                    <img src="https://www.pngkey.com/png/full/901-9018966_jagemeister-jagermeister-56.png" alt="Logo" width="10" height="24" />
+                    <span>by Kreator</span>
+                </div>
             </footer>
         </div>
     )
