@@ -6,7 +6,6 @@
 .itemContainer{
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
   margin: 0px;
   width: 100%;
   flex-wrap: wrap;
