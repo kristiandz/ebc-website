@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: space-around;
   background: linear-gradient(30deg, rgb(65, 65, 65) 0%, rgb(119, 119, 119) 100%);
+  z-index: 3;
 }
 
 .header ul {
@@ -39,13 +40,13 @@
 }
 
 .dropdownContent{
-  margin-top: 2.2vh;
+  margin-top: 1.7vh;
   display: none;
   position: absolute;
   padding-top: 0vh;
   background: #676767;
   min-width: 160px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .dropdownContent a {
@@ -53,7 +54,7 @@
 }
 
 .dropdownContent a:hover {
-    color: rgb(182, 182, 182);
+  color: rgb(182, 182, 182);
 }
 
 .dropdown:hover .dropdownContent {
