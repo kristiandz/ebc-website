@@ -1,3 +1,41 @@
 .stats{
+    display: flex;
+    flex-direction: column;
     font: inherit;
+    height: 93vh;
+}
+/* ------- */
+.serverStatsContainer{
+    display: flex;
+    padding: 3vh 2vw;
+    background: rgb(221, 221, 221);
+    transition: 0.5s;
+}
+.serverStatsContainer:hover{
+    background: rgb(209, 209, 209);
+    transition: 0.5s;
+}
+/* ------- */
+.apiStatsContainer{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    display: flex;
+    padding: 3vh 2vw;
+    background: rgb(221, 221, 221);
+    transition: 0.5s;
+}
+.apiStatsContainer:hover{
+    transition: 0.5s;
+    background: rgb(209, 209, 209);
+}
+/* ------- */
+.personalStatsContainer{
+    background: rgb(221, 221, 221);
+    padding: 3vh 2vw;
+    transition: 0.5s;
+    height: 70%;
+}
+.personalStatsContainer:hover{
+    background: rgb(209, 209, 209);
+    transition: 0.5s;
 }
