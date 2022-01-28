@@ -1,6 +1,4 @@
-
-
-# Explicit Bouncers Website [![CodeFactor](https://www.codefactor.io/repository/github/kristiandz/ebc-website/badge)](https://www.codefactor.io/repository/github/kristiandz/ebc-website) ![GitHub](https://img.shields.io/github/license/kristiandz/ebc-website)
+# Explicit Bouncers Website [![Build](https://github.com/kristiandz/ebc-website/actions/workflows/ci.yml/badge.svg)](https://github.com/kristiandz/ebc-website/actions) [![CodeFactor](https://www.codefactor.io/repository/github/kristiandz/ebc-website/badge)](https://www.codefactor.io/repository/github/kristiandz/ebc-website) ![GitHub](https://img.shields.io/github/license/kristiandz/ebc-website)
 
 ### This project is still under active development, feel free to contribute!
 
