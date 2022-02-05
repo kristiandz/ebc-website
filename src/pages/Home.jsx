@@ -6,22 +6,31 @@ import logo from "../assets/ebc_logo.gif"
 function Home() {
     return (
         <div className={classes.home}>
-            <div className={classes.about}>
-                <div className={classes.aboutSideContainer}>
-                    <div className={classes.aboutImage}></div>
+            <div className={classes.aboutTop}>
+                <div className={classes.aboutTopSideContainer}>
+                    <div className={classes.aboutTopImage}></div>
                 </div>
-                <div className={classes.aboutText}>
-                    <span>Explicit Bouncers is an online gaming community founded in 2010 by pr1m3. Through years of hard effort, eBc CodJumper server has reached a reputation of a home for all the CoD CJ lovers.</span>
-                    <span>In 2013, the eBc team has decided to expand the community with 2 more servers, deathrun and promod. Explicit Bouncers is nowadays an online gaming community, led by Kreator and JohnFranclin, willing to expand within more games other than CoD4.</span>
+                <div className={classes.aboutTopText}>
+                    <span>Explicit Bouncers is an online gaming community founded in 2010 by pr1m3. Firstly started as a Croatian community, but grew international very quickly.</span>
+                    <span>Through years of hard effort, eBc CodJumper server has reached a reputation of a home for all the CoD CJ lovers.</span>
+                    <span>Soon we have decided to expand to more Call of Duty servers, in 2013 we opened Promod and Deathrun servers which quickly became leading servers in Croatia and wider.</span>
+                </div>
+            </div>
+            <div className={classes.aboutBottom}>
+                <div className={classes.aboutBottomText}>
+                    <span>Explicit Bouncers is nowadays an online gaming community, led by Kreator and JohnFranclin, willing to expand within more games other than CoD4.</span>
                     <span>We provide server hosting services for a very low price. We are an open community to join and we look forward to achieve partnerships with many others while providing our previously stated services.</span>
+                </div>
+                <div className={classes.aboutBottomSideContainer}>
+                    <div className={classes.aboutBottomImage}></div>
                 </div>
             </div>
             <div className={classes.statsContainer}>
                 <div className={classes.stats}>
                     <AchievementCard title="Owned Servers" stat="6" image="https://cdn-icons-png.flaticon.com/512/31/31988.png" />
-                    <AchievementCard title="Global Rank" stat="Top 10" image="https://cdn-icons-png.flaticon.com/512/473/473508.png" />
-                    <AchievementCard title="Unique Players" stat="35000+" image="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" />
-                    <AchievementCard title="Community Members" stat="65+" image="https://icon-library.com/images/member-icon-png/member-icon-png-21.jpg" />
+                    <AchievementCard title="Global Rank" stat="Top 5" image="https://cdn-icons-png.flaticon.com/512/473/473508.png" />
+                    <AchievementCard title="Unique Players" stat="40.000+" image="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" />
+                    <AchievementCard title="Community Members" stat="70+" image="https://icon-library.com/images/member-icon-png/member-icon-png-21.jpg" />
                 </div>
                 <div className={classes.statsImage}></div>
             </div>

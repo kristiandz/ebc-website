@@ -1,23 +1,28 @@
 .home {
   width: 100%;
   height: 100%;
-  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: url(https://www.cod4central.com/images/new_wallpapers/cod4remaster_wallpaper2.jpg);
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: 0 -2vh;
 }
 
 .home h2{
   margin: 0;
 }
 
-.about{
+/* ---------- */
+
+.aboutTop{
   display: flex;
   padding: 4vh;
   justify-content: space-around;
   align-items: center;
-  height: 30vh;
-  background: #a5a5a5;
+  height: 45vh;
 }
 
-.aboutSideContainer{
+.aboutTopSideContainer{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -25,26 +30,49 @@
   width: auto;
 }
 
-.aboutText span{
+.aboutTopText span{
   display: flex;
   flex-direction: column;
   padding-bottom: 2vh;
   width: 45vw;
-  font-weight: 600;
+  font-weight: 650;
+  font-size: 17px;
 }
 
-.aboutSideContainer span{
-  color: black;
-  font-weight: bold;
-  font-size: 26px;
-}
-
-.aboutImage{
-  background-image: url("https://www.pngall.com/wp-content/uploads/1/Community-High-Quality-PNG.png");
-  background-size: 55% 90%;
-  background-repeat: no-repeat;
-  width: 30vw;
+.aboutTopImage{
+  width: 40vw;
   height: 30vh;
+}
+
+/* ------------ */
+
+.aboutBottom{
+  display: flex;
+  position: relative;
+  padding: 4vh;
+  justify-content: space-around;
+  align-items: center;
+  height: 33vh;
+  background: #a5a5a5;
+  filter: drop-shadow(0 0 0.75rem rgb(94, 94, 94));
+}
+
+.aboutBottomText span{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2vh;
+  width: 45vw;
+  font-weight: 650;
+}
+
+.aboutBottomImage{
+  background-image: url("https://www.pngall.com/wp-content/uploads/1/Community-High-Quality-PNG.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 16vw;
+  height: 25vh;
+  align-self: center;
+  text-align: center;
 }
 
 /* ------------ */
@@ -52,8 +80,11 @@
 .statsContainer{
   display: flex;
   justify-content: space-between;
-  background: white;
   padding: 4vh 5vw;
+  background: url(https://reboot.hr/wp-content/uploads/2016/10/modern-warfare-remaster.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 -20vh;
 }
 
 .stats {
@@ -64,7 +95,6 @@
 }
 
 .statsImage{
-  background-image: url(https://www.pngall.com/wp-content/uploads/5/Silhouette-Army.png);
   background-repeat: no-repeat;
   width: 50vw;
   background-size: 100% 100%;
@@ -79,10 +109,11 @@
   background-color: #a5a5a5;
   padding: 5vh 0;
   width: 100%;
-  height: 80vh;
+  height: 85vh;
 }
 
 .cardContainer{
+  z-index: 0;
   display: flex;
   justify-content: center;
   padding-top: 4vh;
