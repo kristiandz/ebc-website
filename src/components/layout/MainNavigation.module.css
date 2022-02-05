@@ -1,5 +1,5 @@
 .header {
-  height: 7vh;
+  height: 8vh;
   display: flex;
   position: fixed; 
   top: 0;
@@ -40,13 +40,13 @@
 }
 
 .dropdownContent{
-  margin-top: 1.7vh;
+  margin-top: 2vh;
   display: none;
   position: absolute;
   padding-top: 0vh;
   background: #676767;
   min-width: 160px;
-  z-index: 2;
+  z-index: 1;
 }
 
 .dropdownContent a {
