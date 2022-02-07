@@ -27,7 +27,7 @@ function Home() {
             </div>
             <div className={classes.statsContainer}>
                 <div className={classes.stats}>
-                    <AchievementCard title="Owned Servers" stat="6" image="https://cdn-icons-png.flaticon.com/512/31/31988.png" />
+                    <AchievementCard title="Owned Servers" stat="5" image="https://cdn-icons-png.flaticon.com/512/31/31988.png" />
                     <AchievementCard title="Global Rank" stat="Top 5" image="https://cdn-icons-png.flaticon.com/512/473/473508.png" />
                     <AchievementCard title="Unique Players" stat="40.000+" image="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" />
                     <AchievementCard title="Community Members" stat="70+" image="https://icon-library.com/images/member-icon-png/member-icon-png-21.jpg" />
