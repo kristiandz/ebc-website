@@ -7,7 +7,7 @@
 /* ------- */
 .serverStatsContainer{
     display: flex;
-    padding: 3vh 2vw;
+    padding: 1.5vh 2vw;
     background: rgb(221, 221, 221);
     transition: 0.5s;
 }
@@ -20,7 +20,7 @@
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     display: flex;
-    padding: 3vh 2vw;
+    padding: 1.5vh 2vw;
     background: rgb(221, 221, 221);
     transition: 0.5s;
 }

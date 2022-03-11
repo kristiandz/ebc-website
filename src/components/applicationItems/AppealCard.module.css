@@ -4,7 +4,7 @@
 
 .cardContainer{
     display: flex;
-    background-color: rgb(202, 202, 202);
+    background-color: whitesmoke;
     border-top: 1px solid rgb(167, 167, 167);
     border-bottom: 1px solid rgb(167, 167, 167);
     border-right: 1px solid rgb(167, 167, 167);
@@ -25,7 +25,7 @@
     font-size: 17px;
     padding-bottom: 5px;
     display: flex;
-    background-color: #cccccc;
+    background-color: whitesmoke;
     justify-content: space-between;
     cursor: pointer;
 }
@@ -75,7 +75,7 @@
 
 .card:hover{
     /* transform:scale(+100.4%); */
-    background-color: rgb(179, 177, 177);
+    background-color: rgb(230, 230, 230);
     transition-duration: 0.5s;
 } /* On hover over card */
 
