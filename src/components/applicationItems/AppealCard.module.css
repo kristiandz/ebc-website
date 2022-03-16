@@ -24,8 +24,9 @@
 .cardSpecial{
     font-size: 17px;
     padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
     display: flex;
-    background-color: whitesmoke;
     justify-content: space-between;
     cursor: pointer;
 }
@@ -74,9 +75,8 @@
 } /* Icon style */
 
 .card:hover{
-    /* transform:scale(+100.4%); */
-    background-color: rgb(230, 230, 230);
-    transition-duration: 0.5s;
+    box-shadow: 1px 1px 5px 0 rgb(82, 82, 82);
+    transition-duration: .5s;
 } /* On hover over card */
 
 .form {
