@@ -1,6 +1,6 @@
 import ServerStatCard from "../components/statItems/ServerStatCard";
 import classes from "./Stats.module.css";
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function Stats() {
     // eslint-disable-next-line

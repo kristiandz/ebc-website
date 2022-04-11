@@ -1,4 +1,5 @@
 import classes from "./ServerStatCard.module.css"
+
 function ServerStatCard(value) {
     return (
         <div className={classes.statCard}>
